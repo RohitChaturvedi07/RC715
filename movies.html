@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Display Movie Information</title>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" src="movies.js"></script>
+  </head>
+  <body onload="initialize();">
+    <form>
+       <label>Movie title: <input type="text" id="form-input"/></label>
+       <input type="button" onclick="sendRequest();" value="Display Info"/>
+    </form>
+	<table>
+	<tr><td>
+    <div id="output">&nbsp;</div>
+	</td><td>
+	<div id="info1">&nbsp;</div>
+	</td></tr>
+	</table>
+  </body>
+</html>
