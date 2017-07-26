@@ -7,8 +7,8 @@ enable_implicit_flush();
 set_time_limit(0);
 require_once("DropboxClient.php");
 $dropbox = new DropboxClient(array(
-	'app_key' => "7x7rbpqvqw0w0tq",      // Put your Dropbox API key here
-	'app_secret' => "lvjqy591o1jzylg",   // Put your Dropbox API secret here
+	'app_key' => "",      // Put your Dropbox API key here
+	'app_secret' => "",   // Put your Dropbox API secret here
 	'app_full_access' => false,
 ),'en');
 $access_token = load_token("access");
