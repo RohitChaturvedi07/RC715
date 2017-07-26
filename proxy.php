@@ -1,10 +1,10 @@
 <?php
 
   // Set your YELP keys here
-  $consumer_key = "SWJKI1PeIPjMduaeOxIktw";
-  $consumer_secret = "wlDY1cOrC1pJEqD3xHFD-8vmp64";
-  $token = "-7FBZ8oz26djYJBK-rc8fICXNDAOX0Mr";
-  $token_secret = "g13gTqSjxE90PjZd5dphubSEXZs";
+  $consumer_key = "";
+  $consumer_secret = "";
+  $token = "";
+  $token_secret = "";
 
   require_once ('OAuth.php');
   header("Content-type: application/json\n\n");
